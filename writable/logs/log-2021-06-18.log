@@ -1,0 +1,889 @@
+CRITICAL - 2021-06-18 01:40:11 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:44:07 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:44:16 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:44:34 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:44:44 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:45:07 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:45:41 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:48:31 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:48:51 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:49:05 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 01:57:06 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:01:59 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:02:25 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:04:17 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:04:18 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:04:36 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:04:37 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:06:55 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:06:56 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:08:10 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:11:44 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:11:45 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:12:07 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:12:07 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:12:59 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:12:59 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:17:14 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:17:14 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:17:26 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:17:27 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:17:53 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:17:54 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:18:15 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:18:16 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:18:39 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:18:40 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:19:08 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:19:09 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:19:38 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:19:39 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:20:01 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:20:02 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 02:20:55 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:21:13 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:22:09 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:23:54 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:24:05 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:24:58 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:25:16 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:26:07 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:26:15 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:26:33 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:28:55 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-18 02:28:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:28:55 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:30:42 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-18 02:30:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:30:43 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:31:55 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-18 02:31:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:31:55 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:33:09 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-18 02:33:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:33:11 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:36:36 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:37:04 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-18 02:37:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:37:05 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:37:46 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-18 02:37:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:37:51 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`detalle_venta`, CONSTRAINT `fk_producto_pk` FOREIGN KEY (`id_producto_pk`) REFERENCES `producto` (`id_producto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-18 02:38:20 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:42:54 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:46:01 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:47:16 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 02:51:49 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 03:01:15 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 03:02:28 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 03:04:12 --> Too few arguments to function App\Controllers\Usuarios::buscarPorRutJson(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->buscarPorRutJson()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-18 13:50:40 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(283): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-18 13:51:12 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 273)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaPeriodo()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 14:05:53 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(272): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(244): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(493): App\Controllers\Estadistica->pagVentaPeriodo()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 14:07:04 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(273): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(242): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(494): App\Controllers\Estadistica->pagVentaPeriodo()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 14:07:14 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(274): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(244): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(495): App\Controllers\Estadistica->pagVentaPeriodo()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 14:16:11 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Estadistica/eje...')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Estadistica/eje...')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-18 15:35:34 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(281): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 15:36:14 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(281): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 15:36:35 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(280): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 15:37:01 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 272)
+#1 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-18 15:37:08 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(280): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 15:37:17 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(280): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 15:37:31 --> Undefined variable $venta
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 273)
+#1 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-18 15:37:38 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(280): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 15:37:55 --> FPDF error: Some data has already been output, can't send PDF file
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(999): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(280): FPDF->Output('I', 'ventasPeriodo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(229): App\Controllers\Estadistica->cargarVentaPeriodo()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->ejem()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-18 20:57:56 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\pos\system\Model.php on line 836 and at least 2 expected
+#0 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->join('empleado AS eve...')
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(58): CodeIgniter\Model->__call('join', Array)
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-18 20:58:10 --> mysqli_sql_exception: Unknown column 'ventas.empleado_fk' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(59): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-18 20:58:10 --> Unknown column 'ventas.empleado_fk' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(59): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-18 20:59:31 --> mysqli_sql_exception: Unknown column 'ventas.empleado_fk' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(59): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-18 20:59:31 --> Unknown column 'ventas.empleado_fk' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(59): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-18 21:00:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 343)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(100): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 21:01:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 343)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(100): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 21:01:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 343)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(100): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 21:02:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 343)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(100): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 21:05:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 343)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(100): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 21:05:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 343)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(100): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 21:12:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 343)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(101): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-18 21:16:23 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

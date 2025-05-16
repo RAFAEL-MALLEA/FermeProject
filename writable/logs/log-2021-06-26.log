@@ -1,0 +1,1251 @@
+CRITICAL - 2021-06-26 08:30:59 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\pos\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\pos\system\Debug\Toolbar.php(456): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\Debug\Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\pos\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\pos\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-26 08:31:31 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:32:02 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:32:52 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:33:27 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:34:31 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:35:30 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:36:29 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:37:33 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:38:01 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:38:21 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:38:50 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:39:04 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:39:28 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:40:02 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:40:18 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:41:10 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:45:34 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:46:20 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:48:08 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:49:38 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:50:18 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:52:31 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:53:51 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:54:53 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 08:59:24 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:00:29 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:03:28 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:04:24 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:05:12 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:06:41 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:07:27 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:08:43 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:10:05 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:12:11 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:41:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:41:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:41:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:41:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:42:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:42:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:43:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:43:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:43:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:43:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:43:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:43:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:44:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:44:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:44:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:44:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:47:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:47:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:49:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:49:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:49:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:49:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:50:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:50:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:51:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:51:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:51:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:51:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:51:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:51:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:52:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:52:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:53:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:53:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:54:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:54:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:54:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:54:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:55:02 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 09:55:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:55:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:55:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 09:55:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(76): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 10:13:50 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:15:24 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:16:08 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:17:43 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:18:41 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:20:02 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:20:54 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:21:07 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:29:21 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:34:01 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:34:36 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:36:19 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:36:48 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:37:08 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:38:06 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:38:50 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:39:45 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:43:13 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:47:18 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:47:39 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:48:13 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-26 11:48:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-26 11:48:19 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-06-26 11:48:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-26 11:48:27 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-06-26 11:48:33 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-26 11:48:33 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-06-26 11:48:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-26 11:48:48 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_tipo_moneda` FOREIGN KEY (`tipo_moneda_fk`) REFERENCES `tipo_moneda` (`id_moneda`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(234): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-26 10:50:38 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:51:01 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 10:52:43 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 11:00:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(83): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 11:00:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(83): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 13:08:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 13:08:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 13:08:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 13:08:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 13:09:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->editarUsuario('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 13:09:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 252)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->editarUsuario('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 13:09:36 --> Undefined variable $e_tipomoneda
+#0 C:\xampp\htdocs\pos\app\Views\administrador\panel_header.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/p...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(90): view('administrador/p...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->pagStockMin()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 13:10:46 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 13:10:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Empresas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->buscarPorRutCliente('17790074')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 13:12:16 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:41:41 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:43:59 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:46:23 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:47:48 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:48:47 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:51:51 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:52:15 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:52:41 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 15:56:19 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:07:10 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:09:02 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:10:33 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:11:08 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:11:27 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:11:43 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:12:55 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:13:53 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:16:00 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:17:36 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:18:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(83): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:18:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(83): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:18:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(83): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'footer', '1.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:18:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Views\administrador\editar_moneda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/e...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Moneda.php(83): view('administrador/e...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Moneda->editarMoneda('img', 'icon', 'favicon.png')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moneda))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-26 16:18:32 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:22:52 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:25:17 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:28:16 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:30:39 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:32:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 457)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-26 16:33:09 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-26 16:35:31 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

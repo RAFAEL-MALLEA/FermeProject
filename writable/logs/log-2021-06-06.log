@@ -1,0 +1,674 @@
+ERROR - 2021-06-06 13:25:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`rut_fk`)
+JOIN `empresa` AS `e` ON `dt`.`rut`=`e`.`DATOS_PERSONALES_rut`
+WHE...' at line 3 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `e`.`rut...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`rut...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`rut...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`rut...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(141): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Acceder->datosEmp('33')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceder))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 13:25:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`rut_fk`)
+JOIN `empresa` AS `e` ON `dt`.`rut`=`e`.`DATOS_PERSONALES_rut`
+WHE...' at line 3
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `e`.`rut...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`rut...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`rut...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`rut...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(141): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Acceder->datosEmp('33')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceder))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 13:25:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`rut_fk`)
+JOIN `empresa` AS `e` ON `dt`.`rut`=`e`.`DATOS_PERSONALES_rut`
+WHE...' at line 3 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `e`.`rut...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`rut...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`rut...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`rut...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(141): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Acceder->datosEmp('33')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceder))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 13:25:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`rut_fk`)
+JOIN `empresa` AS `e` ON `dt`.`rut`=`e`.`DATOS_PERSONALES_rut`
+WHE...' at line 3
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `e`.`rut...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `e`.`rut...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `e`.`rut...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `e`.`rut...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(141): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Acceder->datosEmp('33')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceder))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 14:29:48 --> mysqli_sql_exception: Column 'comuna_fk' cannot be null in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `di...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\DatosPersonales.php(80): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(134): App\Controllers\DatosPersonales->insertarDireccion('Vi\xC3\xB1a del mar', 'Placilla', '938944753', NULL)
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-06 14:29:48 --> Column 'comuna_fk' cannot be null
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `di...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\DatosPersonales.php(80): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(134): App\Controllers\DatosPersonales->insertarDireccion('Vi\xC3\xB1a del mar', 'Placilla', '938944753', NULL)
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-06 17:19:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->editarUsuario('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-06 17:19:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->editarUsuario('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-06 18:14:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')) AS precio_venta, `stock`, `categoria`
+FROM `producto`
+WHERE `estado` = 1
+O...' at line 1 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_prod...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_prod...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_prod...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_prod...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\ProductosAdminModel.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(72): App\Models\ProductosAdminModel->orderProducto()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-06 18:14:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')) AS precio_venta, `stock`, `categoria`
+FROM `producto`
+WHERE `estado` = 1
+O...' at line 1
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_prod...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_prod...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_prod...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_prod...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\ProductosAdminModel.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(72): App\Models\ProductosAdminModel->orderProducto()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-06 21:59:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\DatosPersonales.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\DatosPersonales->buscarPorRut('9879877')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersonales))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-06 22:59:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_cliente` FOREIGN KEY (`cliente_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(220): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-06 22:59:44 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_cliente` FOREIGN KEY (`cliente_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(220): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-06 22:01:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\DatosPersonales.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\DatosPersonales->buscarPorRut('9879877')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersonales))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-06 23:01:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_cliente` FOREIGN KEY (`cliente_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(220): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-06 23:01:15 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_cliente` FOREIGN KEY (`cliente_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(220): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-06 22:02:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\DatosPersonales.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\DatosPersonales->buscarPorRut('9879877')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersonales))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-06 23:02:40 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_cliente` FOREIGN KEY (`cliente_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(220): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-06 23:02:40 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`venta`, CONSTRAINT `fk_cliente` FOREIGN KEY (`cliente_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(220): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-06 22:17:27 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-06 22:24:58 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-06 22:30:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:30:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:30:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:30:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:30:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:30:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:31:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:31:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:31:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1001')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:31:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1001')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:31:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:31:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p.precio_venta AS precio_venta
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `...' at line 2
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1016')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:34:15 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-06 22:37:29 --> mysqli_sql_exception: Unknown column 'p.precio_venta-valor_iva' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:37:29 --> Unknown column 'p.precio_venta-valor_iva' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:37:54 --> mysqli_sql_exception: Unknown column 'p.precio_venta - valor_iva' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:37:54 --> Unknown column 'p.precio_venta - valor_iva' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:44:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.19 AS `precio_iva`
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `venta`.`id_...' at line 1 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:44:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.19 AS `precio_iva`
+FROM `venta`
+JOIN `detalle_venta` AS `dt` ON `venta`.`id_...' at line 1
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:52:03 --> mysqli_sql_exception: Unknown column 'precio_iva' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:52:03 --> Unknown column 'precio_iva' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:52:26 --> mysqli_sql_exception: Unknown column 'precio_iva' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:52:26 --> Unknown column 'precio_iva' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-06-06 22:54:59 --> mysqli_sql_exception: Unknown column 'p.precio_venta * cantidad' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 22:54:59 --> Unknown column 'p.precio_venta * cantidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(293): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosProductoBoleta('1017')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-06 23:08:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Empresas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->buscarPorRutCliente('1')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-06 23:33:20 --> mysqli_sql_exception: Column 'comuna_fk' cannot be null in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `di...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\DatosPersonales.php(80): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(134): App\Controllers\DatosPersonales->insertarDireccion('Vi\xC3\xB1a del mar', 'asd', '938944753', NULL)
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-06 23:33:20 --> Column 'comuna_fk' cannot be null
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `di...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\DatosPersonales.php(80): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(134): App\Controllers\DatosPersonales->insertarDireccion('Vi\xC3\xB1a del mar', 'asd', '938944753', NULL)
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->insertar()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-06 23:33:39 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

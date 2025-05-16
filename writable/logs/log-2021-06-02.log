@@ -1,0 +1,298 @@
+ERROR - 2021-06-02 13:16:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '."")) AS total
+FROM `venta`
+WHERE `estado_venta` = 1
+ LIMIT 1' at line 1 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT CONCAT("...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT("...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT("...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT("...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(54): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(28): App\Models\VentaModel->totalVentas()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-02 13:16:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '."")) AS total
+FROM `venta`
+WHERE `estado_venta` = 1
+ LIMIT 1' at line 1
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT CONCAT("...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT("...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT("...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT("...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(54): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(28): App\Models\VentaModel->totalVentas()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-02 16:11:50 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 16:12:49 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 16:16:34 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 16:17:01 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 16:26:57 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 16:43:43 --> Undefined array key 1001
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 331)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(83): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-02 16:43:45 --> Undefined array key 1001
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 331)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(83): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-02 16:43:46 --> Undefined array key 1001
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 331)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(83): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-02 16:43:47 --> Undefined array key 1001
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(331): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 331)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(83): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-02 17:03:34 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 17:03:59 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 17:55:23 --> Undefined array key "id"
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ventas.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 330)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(83): view('administrador/v...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-02 19:08:22 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-02 19:08:39 --> Too few arguments to function App\Controllers\Ventas::datosBoleta(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-02 21:03:25 --> mysqli_sql_exception: Unknown column 'u.rut_afk' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(255): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-02 21:03:25 --> Unknown column 'u.rut_afk' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(255): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-02 21:16:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e.rut_empresa AS rut_emp
+FROM `venta`
+JOIN `usuario` AS `u` ON `venta`.`clien...' at line 2 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-02 21:16:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e.rut_empresa AS rut_emp
+FROM `venta`
+JOIN `usuario` AS `u` ON `venta`.`clien...' at line 2
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-02 21:17:37 --> mysqli_sql_exception: Unknown column 'e.rut' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-02 21:17:37 --> Unknown column 'e.rut' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-02 21:17:41 --> mysqli_sql_exception: Unknown column 'e.rut' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-02 21:17:41 --> Unknown column 'e.rut' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-02 21:33:05 --> mysqli_sql_exception: Unknown column 'ventas.empleado_fk' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-02 21:33:05 --> Unknown column 'ventas.empleado_fk' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-02 21:33:07 --> mysqli_sql_exception: Unknown column 'ventas.empleado_fk' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-02 21:33:07 --> Unknown column 'ventas.empleado_fk' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(258): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->datosBoleta('1001')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}

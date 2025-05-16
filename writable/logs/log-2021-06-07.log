@@ -1,0 +1,1173 @@
+CRITICAL - 2021-06-07 09:26:52 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 11:02:11 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 12:39:57 --> fopen(hola.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(hola.xlsx...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('hola.xlsx', 'wb+')
+#2 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('hola.xlsx')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(199): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('hola.xlsx')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-07 12:40:54 --> fopen(hola.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(hola.xlsx...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('hola.xlsx', 'wb+')
+#2 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('hola.xlsx')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(200): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('hola.xlsx')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-07 12:41:13 --> fopen(hola.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(hola.xlsx...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('hola.xlsx', 'wb+')
+#2 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('hola.xlsx')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(200): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('hola.xlsx')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-07 13:18:45 --> Call to undefined method App\Models\VentaModel::datosXPeriodo
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(195): CodeIgniter\Model->__call('datosXPeriodo', Array)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 13:18:58 --> Call to undefined method App\Models\VentaModel::datosXPeriodo
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(219): CodeIgniter\Model->__call('datosXPeriodo', Array)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 13:20:03 --> Undefined array key "empleado"
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 222)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-07 14:00:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` = <' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:00:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` = <' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:01:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:01:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:02:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:02:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:03:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL
+ LIMIT 1' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:03:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL
+ LIMIT 1' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:04:55 --> Call to undefined method App\Models\VentaModel::result
+#0 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\Model->__call('result', Array)
+#1 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-07 14:05:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:05:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `fecha_venta` < IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:07:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) < IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:07:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) < IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:09:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) < IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:09:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) < IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:10:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) = IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:10:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) = IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:10:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:10:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:10:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:10:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 14:10:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) IS NULL' at line 6 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:10:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND DATE(fecha_venta) IS NULL' at line 6
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fecha_v...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fecha_v...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fecha_v...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fecha_v...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentaModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(214): App\Models\VentaModel->datosXPeriodo(NULL, NULL)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 14:17:53 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 216)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 14:22:27 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 216)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 14:29:25 --> Undefined property: App\Controllers\Estadistica::$input
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 198)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 14:30:45 --> fopen(hola.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(hola.xlsx...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('hola.xlsx', 'wb+')
+#2 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('hola.xlsx')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(227): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('hola.xlsx')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-07 14:32:06 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(198): date('Y-m-d', 'fecha_inicio')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 14:32:28 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(198): date('Y-m-d', 'fecha_inicio')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 14:35:53 --> Undefined array key "empleado"
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 14:46:40 --> fopen(hola.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(hola.xlsx...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('hola.xlsx', 'wb+')
+#2 C:\xampp\htdocs\pos\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('hola.xlsx')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(205): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('hola.xlsx')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-07 16:38:42 --> Class "App\Controllers\Xlsx" not found
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->excel()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 17:38:24 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 17:47:59 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 17:54:44 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 17:55:56 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 18:55:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 17:56:00 --> Undefined property: App\Controllers\Ventas::$input
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 349)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 17:58:04 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 18:58:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 17:58:08 --> Undefined property: App\Controllers\Ventas::$input
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 349)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 18:01:11 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 19:01:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 18:01:13 --> Undefined array key "id_producto"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(352): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 352)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-07 18:04:56 --> mysqli_sql_exception: Unknown column 'usuario_fk' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(350): App\Controllers\Ventas->datosPersoUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 18:04:56 --> Unknown column 'usuario_fk' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(350): App\Controllers\Ventas->datosPersoUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 18:06:49 --> mysqli_sql_exception: Unknown column 'usuario_fk' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(350): App\Controllers\Ventas->datosPersoUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 18:06:49 --> Unknown column 'usuario_fk' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(350): App\Controllers\Ventas->datosPersoUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 18:07:03 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-07 18:07:06 --> mysqli_sql_exception: Unknown column 'usuario_fk' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(350): App\Controllers\Ventas->datosPersoUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 18:07:06 --> Unknown column 'usuario_fk' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(350): App\Controllers\Ventas->datosPersoUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 18:09:54 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 18:37:33 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 18:59:56 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 342)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 19:00:14 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 342)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 19:00:17 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 342)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 19:29:44 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(367): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 367)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 19:30:28 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 19:31:25 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 19:43:28 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 366)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-07 19:44:36 --> mysqli_sql_exception: Unknown column 'p.nombr' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(345): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 19:44:36 --> Unknown column 'p.nombr' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(345): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 19:49:18 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 366)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 19:53:52 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 366)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-07 19:56:11 --> mysqli_sql_exception: Unknown column 'dt.id_venta_pk' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(329): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(364): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 19:56:11 --> Unknown column 'dt.id_venta_pk' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id_vent...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_vent...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_vent...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_vent...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(329): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(364): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 20:07:11 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:07:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 229)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 20:07:27 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-07 20:22:22 --> mysqli_sql_exception: Unknown column 'detalle_ventaid_producto_pk.cliente_fk' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(365): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 20:22:22 --> Unknown column 'detalle_ventaid_producto_pk.cliente_fk' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(365): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 20:22:39 --> mysqli_sql_exception: Unknown column 'detalle_venta.id_producto_pk.cliente_fk' in 'on clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(365): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 20:22:39 --> Unknown column 'detalle_venta.id_producto_pk.cliente_fk' in 'on clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(330): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(365): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 21:29:49 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:17:06 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:17:11 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 372)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 22:18:40 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:18:41 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 372)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 22:18:51 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:18:55 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 372)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-07 22:21:16 --> mysqli_sql_exception: Unknown column 'id_vente' in 'where clause' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(369): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 22:21:16 --> Unknown column 'id_vente' in 'where clause'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(369): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-07 22:21:24 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(369): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 22:21:24 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(369): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 22:24:39 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:25:15 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:29:16 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:30:34 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:31:40 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-07 22:31:43 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(369): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 22:31:43 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(369): App\Controllers\Ventas->datosProductoBoletaUser()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 22:34:57 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:36:18 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:36:46 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:39:25 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:39:28 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(375): App\Controllers\Ventas->datosProductoBoletaUser()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-07 22:42:53 --> Undefined array key "id_venta"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 326)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(331): App\Controllers\Ventas->buscarIdCom()
+#2 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(375): App\Controllers\Ventas->datosProductoBoletaUser()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-06-07 22:45:17 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(339): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(374): App\Controllers\Ventas->datosProductoBoletaUser(Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 22:45:17 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `p`.`nom...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nom...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nom...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nom...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(339): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(374): App\Controllers\Ventas->datosProductoBoletaUser(Array)
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-07 22:46:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:04:18 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:05:15 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:05:36 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:06:40 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:15:48 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:16:09 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:16:26 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:22:03 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 23:22:06 --> Undefined property: App\Controllers\Ventas::$detalle_producto
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 324)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): App\Controllers\Ventas->buscarIdCo()
+#2 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(370): App\Controllers\Ventas->datosProductoBoletaUser()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-07 23:23:41 --> Undefined array key "id_venta"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 325)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): App\Controllers\Ventas->buscarIdCo()
+#2 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(370): App\Controllers\Ventas->datosProductoBoletaUser()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-07 23:24:02 --> Undefined array key "id_venta"
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 325)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(334): App\Controllers\Ventas->buscarIdCo()
+#2 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(370): App\Controllers\Ventas->datosProductoBoletaUser()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->cargartoComprobante()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

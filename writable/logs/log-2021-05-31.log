@@ -1,0 +1,14 @@
+CRITICAL - 2021-05-31 12:06:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:06:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->realizarVentaWeb()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,635 @@
+CRITICAL - 2021-05-29 00:00:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 00:00:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 00:00:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-29 00:21:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-05-29 00:31:07 --> mysqli_sql_exception: Unknown column 'producto' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-29 00:31:07 --> Unknown column 'producto' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-05-29 00:31:07 --> mysqli_sql_exception: Unknown column 'producto' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-29 00:31:07 --> Unknown column 'producto' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-05-29 00:31:13 --> mysqli_sql_exception: Unknown column 'producto' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-29 00:31:13 --> Unknown column 'producto' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-05-29 00:31:52 --> mysqli_sql_exception: Unknown column 'producto' in 'field list' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 00:31:52 --> Unknown column 'producto' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `product...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(36): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-29 00:32:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'producto' at line 1 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('producto')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('producto')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('producto')
+#3 C:\xampp\htdocs\pos\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('producto')
+#4 C:\xampp\htdocs\pos\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(35): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 00:32:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'producto' at line 1
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('producto')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('producto')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('producto')
+#3 C:\xampp\htdocs\pos\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('producto')
+#4 C:\xampp\htdocs\pos\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(35): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-29 00:34:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'producto' at line 1 in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('producto')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('producto')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('producto')
+#3 C:\xampp\htdocs\pos\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('producto')
+#4 C:\xampp\htdocs\pos\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(35): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 00:34:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'producto' at line 1
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('producto')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('producto')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('producto')
+#3 C:\xampp\htdocs\pos\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('producto')
+#4 C:\xampp\htdocs\pos\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(35): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->traerStockProduc()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 13:34:01 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Views\administrador\informes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/i...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(43): view('administrador/i...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 13:34:52 --> Array to string conversion
+#0 C:\xampp\htdocs\pos\app\Views\administrador\informes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/i...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(43): view('administrador/i...')
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 16:10:05 --> FPDF error: 16-bit depth not supported: img/logo/logo.png
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1279): FPDF->Error('16-bit depth no...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->_parsepngstream(Resource id #112, 'img/logo/logo.p...')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(93): FPDF->Image('img/logo/logo.p...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 16:11:00 --> FPDF error: 16-bit depth not supported: img/logo/logo.png
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1279): FPDF->Error('16-bit depth no...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->_parsepngstream(Resource id #112, 'img/logo/logo.p...')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(93): FPDF->Image('img/logo/logo.p...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 16:14:59 --> unlink(C:\xampp\htdocs\pos\writable\debugbar/debugbar_1622313121.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\pos\system\Debug\Toolbar\Collectors\History.php(78): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\Debug\Toolbar.php(441): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1622322899, 20)
+#3 C:\xampp\htdocs\pos\system\Debug\Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\pos\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\pos\system\Events\Events.php(166): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 16:45:29 --> Undefined property: FPDF::$response
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 17:00:46 --> include(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): http...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): include()
+#2 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(83): view('administrador/v...')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->pagStockMin()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 17:01:06 --> include(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): http...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): include()
+#2 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(83): view('administrador/v...')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->pagStockMin()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 17:01:07 --> include(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): http...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): include()
+#2 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(83): view('administrador/v...')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->pagStockMin()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 17:01:31 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\pos\app\Views\administrador\ver_stock_minimos.php(7): require()
+#2 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('administrador/v...', Array, true)
+#5 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(83): view('administrador/v...')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->pagStockMin()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 17:27:07 --> FPDF error: 16-bit depth not supported: img/logo/logo.png
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1279): FPDF->Error('16-bit depth no...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->_parsepngstream(Resource id #112, 'img/logo/logo.p...')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo.p...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:27:48 --> getimagesize(img/logo/logo.jpg): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(im...', 'C:\\xampp\\htdocs...', 1238)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1238): getimagesize('img/logo/logo.j...')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsejpg('img/logo/logo.j...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo.j...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:33:01 --> FPDF error: 16-bit depth not supported: img/logo/logo.png
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1279): FPDF->Error('16-bit depth no...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->_parsepngstream(Resource id #112, 'img/logo/logo.p...')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo.p...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo.p...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:34:22 --> fopen(img/logo/logo.old.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo.o...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo.o...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo.o...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:35:18 --> FPDF error: 16-bit depth not supported: img/logo/logo_ferme_xxs.png
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1279): FPDF->Error('16-bit depth no...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1260): FPDF->_parsepngstream(Resource id #112, 'img/logo/logo_f...')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo_f...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo_f...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:39:52 --> fopen(img/logo/logo_copia.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo_c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo_c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo_c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:39:53 --> fopen(img/logo/logo_copia.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo_c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo_c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo_c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:40:18 --> fopen(img/logo/logo-copia1.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo-c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo-c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo-c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:40:19 --> fopen(img/logo/logo-copia1.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo-c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo-c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo-c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:40:45 --> fopen(img/logo/logo-copia1.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo-c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo-c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo-c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:40:46 --> fopen(img/logo/logo-copia1.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo-c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo-c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo-c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:41:14 --> fopen(img/logo/logo_copia1.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo_c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo_c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo_c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 17:41:15 --> fopen(img/logo/logo_copia1.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(img/logo/...', 'C:\\xampp\\htdocs...', 1257)
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1257): fopen('img/logo/logo_c...', 'rb')
+#2 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsepng('img/logo/logo_c...')
+#3 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(96): FPDF->Image('img/logo/logo_c...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargartockMin()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-29 19:11:06 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('28.35 692.78 11...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(40, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:11:35 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('28.35 692.78 11...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(40, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:11:48 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('28.35 692.78 14...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:11:58 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('141.73 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:12:03 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:12:29 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:12:56 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:13:53 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:15:20 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:15:37 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('566.93 721.13 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:15:54 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:17:34 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:17:47 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:20:18 --> Undefined array key "empleado"
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:21:22 --> Undefined array key "empleado"
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:21:30 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:22:53 --> Undefined array key "empleado"
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:23:06 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '237410', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:23:28 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '237410', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:24:19 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:24:28 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('566.93 721.13 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '303', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 19:24:50 --> Undefined array key "empleado_fk"
+#0 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 19:24:59 --> FPDF error: The document is closed
+#0 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is...')
+#1 C:\xampp\htdocs\pos\app\ThirdParty\fpdf\fpdf.php(643): FPDF->_out('170.08 692.78 1...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(163): FPDF->Cell(50, 5, '1001', 1, 0, 'C')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Estadistica->cargarVentaEmp()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estadistica))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 21:43:53 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\pos\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pos\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vent...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vent...')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(908): App\Controllers\Estadistica->__construct()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 21:43:57 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\pos\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pos\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vent...')
+#2 C:\xampp\htdocs\pos\app\Controllers\Estadistica.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vent...')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(908): App\Controllers\Estadistica->__construct()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

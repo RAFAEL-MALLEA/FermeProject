@@ -1,0 +1,487 @@
+CRITICAL - 2021-06-10 00:04:11 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 00:05:58 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 00:06:58 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 00:07:49 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 00:08:35 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 12:14:31 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 12:16:23 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 13:31:05 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 13:31:07 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(859): CodeIgniter\Database\BaseBuilder->_whereIn('producto.id_pro...', Object(App\Models\ProductosModel), false, 'AND ', NULL)
+#1 C:\xampp\htdocs\pos\system\Model.php(344): CodeIgniter\Database\BaseBuilder->whereIn('producto.id_pro...', Object(App\Models\ProductosModel))
+#2 C:\xampp\htdocs\pos\system\BaseModel.php(901): CodeIgniter\Model->doUpdate(Object(App\Models\ProductosModel), Array)
+#3 C:\xampp\htdocs\pos\system\Model.php(737): CodeIgniter\BaseModel->update(Object(App\Models\ProductosModel), Array)
+#4 C:\xampp\htdocs\pos\app\Models\ProductosModel.php(64): CodeIgniter\Model->update(Object(App\Models\ProductosModel))
+#5 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(266): App\Models\ProductosModel->actualizarStock('9970908105808', '1')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Ventas->agregarDetalleVenta()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-10 16:01:06 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 16:03:47 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 16:16:28 --> Undefined array key "imagen"
+#0 C:\xampp\htdocs\pos\app\Views\Productos\productos.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Productos.php(33): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 16:18:16 --> Undefined array key "imagen"
+#0 C:\xampp\htdocs\pos\app\Views\Productos\productos.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Productos.php(33): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 16:19:34 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\pos\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Productos.php(33): view('Productos/Produ...', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-10 16:20:53 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\pos\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Productos.php(33): view('Productos/Produ...', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-10 16:20:53 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\pos\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Productos.php(33): view('Productos/Produ...', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-10 16:21:05 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\pos\app\Views\Productos\productos.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\pos\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1217): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Productos.php(33): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-10 16:27:52 --> mysqli_sql_exception: Column 'fecha_vencimiento' cannot be null in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\DetalleProducto.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(105): App\Controllers\DetalleProducto->agregarFecha(NULL)
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->NuevoProducto()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-10 16:27:52 --> Column 'fecha_vencimiento' cannot be null
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `de...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\DetalleProducto.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(105): App\Controllers\DetalleProducto->agregarFecha(NULL)
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->NuevoProducto()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-10 16:28:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 221)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 16:28:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 221)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 16:29:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 16:29:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 16:30:46 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 16:31:32 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 17:13:46 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 17:14:55 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 17:15:16 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 17:19:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 17:19:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 17:19:59 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 17:20:16 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 17:21:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 17:21:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:35:10 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 19:48:06 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 19:48:32 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 19:50:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:50:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\ProductosAdmin.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\ProductosAdmin->editar('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosAdmin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:52:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->editarUsuario('img', 'footer', '1.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 19:52:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Usuarios.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Usuarios->editarUsuario('img', 'icon', 'favicon.png')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 21:33:37 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 21:33:51 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 21:38:13 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 21:38:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pos\app\Controllers\Empresas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->buscarPorRutCliente('18322889')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-10 22:00:55 --> mysqli_sql_exception: Column 'usuario_fk' cannot be null in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(155): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(72): App\Controllers\Acceder->contarVisitas()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Acceder->valida()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceder))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-10 22:00:55 --> Column 'usuario_fk' cannot be null
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(155): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pos\app\Controllers\Acceder.php(72): App\Controllers\Acceder->contarVisitas()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Acceder->valida()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Acceder))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-06-10 22:06:37 --> Too few arguments to function App\Controllers\Empresas::boolClienteEmpresa(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Empresas->boolClienteEmpresa()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 23:29:23 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\pos\app\Controllers\Home.php(25): App\Controllers\Home->contarVisitasOff()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 23:29:23 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\pos\app\Controllers\Home.php(25): App\Controllers\Home->contarVisitasOff()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-10 23:31:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`sesion`, CONSTRAINT `usuario_sesion` FOREIGN KEY (`usuario_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Home.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Home.php(26): App\Controllers\Home->contarVisitasOff()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-10 23:31:28 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`sesion`, CONSTRAINT `usuario_sesion` FOREIGN KEY (`usuario_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Home.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Home.php(26): App\Controllers\Home->contarVisitasOff()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2021-06-10 23:32:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`sesion`, CONSTRAINT `usuario_sesion` FOREIGN KEY (`usuario_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Home.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Home.php(26): App\Controllers\Home->contarVisitasOff()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-10 23:32:09 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`sesion`, CONSTRAINT `usuario_sesion` FOREIGN KEY (`usuario_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Home.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Home.php(26): App\Controllers\Home->contarVisitasOff()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2021-06-10 23:32:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ferme`.`sesion`, CONSTRAINT `usuario_sesion` FOREIGN KEY (`usuario_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Home.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Home.php(26): App\Controllers\Home->contarVisitasOff()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-10 23:32:10 --> Cannot add or update a child row: a foreign key constraint fails (`ferme`.`sesion`, CONSTRAINT `usuario_sesion` FOREIGN KEY (`usuario_fk`) REFERENCES `usuario` (`id_usuario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `se...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Home.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\app\Controllers\Home.php(26): App\Controllers\Home->contarVisitasOff()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\pos\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#14 {main}
